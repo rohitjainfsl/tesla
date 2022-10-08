@@ -1,0 +1,26 @@
+section{
+  background: url('tesla images/model-3.jpg') no-repeat scroll center / cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carName{
+  padding-top: 6rem;
+  text-align: center;
+}
+.carName h1{
+  font-size: 3rem;
+}
+.carName p{
+  font-size: 1.2rem;
+}
+
+.cta{
+  text-align: center;
+}
+.cta img{
+  width: 40px;
+}

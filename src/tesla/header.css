@@ -1,0 +1,27 @@
+/* 
+flex-direction: row | column | row-reverse | column-reverse
+justify-content: horizontal alignmnent: flex-start | flex-end | center | space-between | space-around | space-evenly
+align-items: vertical alignmnent 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+header ul{
+  display: flex;
+  list-style: none;
+}
+header ul a{
+  text-decoration: none;
+  color: #000;
+}
